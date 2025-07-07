@@ -187,7 +187,7 @@ def get_emg_power(
     from scipy.signal import butter, filtfilt
 
     # filter parameters
-    order = 8
+    order = 4
     bp_lower = 20
     bp_upper = 50
 
